@@ -78,6 +78,10 @@ footer{
     color: #cacaca;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   #logo {
     margin: 60px  0px 10px; /* play with these to position the image */
     position: absolute;
@@ -86,10 +90,120 @@ footer{
     }  
 
     .CPU{
-      padding-left: 100px;
+      position: absolute;
+      z-index: 100;
+      margin: -40px  20px 30px; /* play with these to position the image */
+      width:500px;
+      word-wrap:break-word;
+      border:thin black solid;
+    }
+
+    .CPU_sales{
+      position: absolute;
+      z-index: 100;
+      margin: -40px  100px 30px; /* play with these to position the image */
+      width:500px;
+      word-wrap:break-word;
+      border:thin black solid;
+    }
+
+
+    .PSU{
+      position: absolute;
+      z-index: 100;
+      margin: -40px  640px 30px; /* play with these to position the image */
+      width:500px;
+      word-wrap:break-word;
+      border:thin black solid;
+    }
+
+    .PSU_sales{
+      position: absolute;
+      z-index: 100;
+      margin: -40px  680px 30px; /* play with these to position the image */
+      width:500px;
+      word-wrap:break-word;
+      border:thin black solid;
+    }
+
+    .Case{
+      position: absolute;
+      z-index: 100;
+      margin: 250px  640px 30px; /* play with these to position the image */
+      width:500px;
+      word-wrap:break-word;
+      border:thin black solid;
 
     }
 
-    .CPU_info{
-      padding-left: 100px;
+    .GPU{
+      position: absolute;
+      z-index: 100;
+      margin: 250px  20px 30px; /* play with these to position the image */
+      width:500px;
+      word-wrap:break-word;
+      border:thin black solid;
+
     }
+
+    .GPU_sales{
+      position: absolute;
+      z-index: 100;
+      margin: 350px  100px 30px; /* play with these to position the image */
+      width:500px;
+      word-wrap:break-word;
+      border:thin black solid;
+
+    }
+    
+    .Motherboard{
+      position: absolute;
+      z-index: 100;
+      margin: 600px  20px 30px; /* play with these to position the image */
+      width:500px;
+      word-wrap:break-word;
+      border:thin black solid;
+
+    }
+    .Motherboard_sales{
+      position: absolute;
+      z-index: 100;
+      margin: 350px  680px 30px; /* play with these to position the image */
+      width:500px;
+      word-wrap:break-word;
+      border:thin black solid;
+
+    }
+
+    .Ram{
+      position: absolute;
+      z-index: 100;
+      margin: 600px  640px 30px; /* play with these to position the image */
+       width:500px;
+      word-wrap:break-word;
+      border:thin black solid;
+    }
+    .jumbotron {
+      background: #358CCE;
+      color: #FFF;
+      border-radius: 0px;
+      }
+      .jumbotron-sm { padding-top: 24px;
+      padding-bottom: 24px; }
+      .jumbotron small {
+      color: #FFF;
+      }
+      .h1 small {
+      font-size: 24px;
+      }
+
+     #pcbuildTitle{
+      padding-left: 10px;
+      letter-spacing: 2px;
+     }
+
+     .information p{
+      padding-left: 5px;
+
+     }
+     
